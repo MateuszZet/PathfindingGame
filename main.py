@@ -41,9 +41,11 @@ while True:
             pathfinder.return_active_cell()
         if event.type == pygame.MOUSEBUTTONDOWN and event.button == SCROLL_UP:
             pathfinder.diagonals = True
+            print('Diagonal movement available!')
         if event.type == pygame.MOUSEBUTTONDOWN and event.button == SCROLL_DOWN:
             pathfinder.diagonals = False
-            
+            print('Diagonal movement disable1')
+
     screen.blit(background, (0, 0))
     pathfinder.update()
     pygame.display.update()
