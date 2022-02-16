@@ -7,8 +7,7 @@ Right click - change start point
 Left click - choose destination (endpoint)   
 Scroll Up - avaible diagonal movement   
 Scroll Down - disable diagonal movement   
-
-
+![Capture](https://user-images.githubusercontent.com/18172067/154354931-ccc260cb-1674-4b5b-a376-8a7ee05b63f0.PNG)
 
 ```
 [(1, 1), (1, 2), (1, 3), (1, 4), (1, 5), (2, 5), (3, 5), (4, 5), (4, 6)]
